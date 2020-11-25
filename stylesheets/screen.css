@@ -1,0 +1,62 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*@import "compass/reset";*/
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+section {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.feature-tile {
+  min-height: 550px;
+}
+
+.feature-tile .image {
+  width: 100%;
+}
+
+.feature-tile h2, .user-plug h4, .user-plug h5 {
+  color: #fff;
+}
+
+.feature-tile > .row:nth-child(2), .user-plug > .row:nth-child(2) {
+  background-color: #333;
+}
+
+.feature-tile .btn {
+  width: 100%;
+  border-radius: 0px;
+}
+
+#hompage-content > .row > .col-md-4 {
+  min-height: 465px;
+}
+
+#homepage-content .col-md-4, .news {
+  min-height: 425px;
+}
+
+.service, .news {
+  border: 1px solid #000;
+}
+
+.service {
+  margin-bottom: 25px;
+}
+
+.news, .news .col-md-12:first-child, .service .col-md-12 {
+  border-bottom: 1px solid #000;
+}
+
+#simtars-icons {
+  background-color: #333;
+  padding: 15px;
+}
+
+#simtars-icons .col-md-12 {
+  background-color: #e5e5e5;
+  padding: 10px;
+}

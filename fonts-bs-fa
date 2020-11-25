@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(./?a=940644);
+  src: url(./?a=940644) format("embedded-opentype"), url(./?a=940641) format("woff2"), url(./?a=940640) format("woff"), url(./?a=940633) format("truetype"), url(./?a=940630) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url(./?a=940644);
+  src: url(./?a=940644) format("embedded-opentype"), url(./?a=940660) format("woff2"), url(./?a=940656) format("woff"), url(./?a=940651) format("truetype"), url(./?a=940647) format("svg");
+}
